@@ -2,9 +2,8 @@
 const http = require('http')
 
 let server = http.createServer((req, res) => {
-        res.writeHead(200)
-        res.end('<h1>HELLO WORLD</h1>')
-    })
+    res.writeHead(200)
+    res.end('<h1>HELLO WORLD</h1>')
 })
 
 let port = process.env.PORT || 5500
